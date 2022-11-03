@@ -28,11 +28,11 @@ class DetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Image.asset('images/dusun_semilir.jpg'),
+            Image.asset('images/Karimun.jpeg'),
             Container(
               margin: const EdgeInsets.only(top: 16.0),
               child: const Text(
-                'Alun Eropa',
+                'Karimun Jawa',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 30.0,
@@ -75,7 +75,7 @@ class DetailScreen extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(16.0),
               child: const Text(
-                'Berkonsep arsitektur Eropa, dengan nuansa warnawarni seperti Venetia, Maroko, Mykonos, dan French Village membuat seaka n berada di kota kota indah khas eropa. Berfoto ria bersama, menikmati mendayung di sunga i atau bersantai menaiki tram dan kereta api yang antik di Alun Eropa ak an menjadi momen tak terlupakan.',
+                'Karimunjawa adalah kepulauan di Laut Jawa yang termasuk dalam Kabupaten Jepara, Jawa Tengah. Dengan luas daratan ±1.500 hektare dan perairan ±110.000 hektare, Karimunjawa kini dikembangkan menjadi pesona wisata Taman Laut yang mulai banyak digemari wisatawan lokal maupun mancanegara.',
                 textAlign: TextAlign.center,
               ),
             ),
@@ -88,22 +88,19 @@ class DetailScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(4.0),
                     child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.network(
-                            'https://afandistudio.net/dusun_semilir/alun_eropa1.jpg')),
+                        child: Image.asset('images/Karimun1.jpeg')),
                   ),
                   Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.network(
-                            'https://afandistudio.net/dusun_semilir/alun_eropa2.jpg'),
+                        child: Image.asset('images/Karimun2.jpeg'),
                       )),
                   Padding(
                       padding: const EdgeInsets.all(4.0),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.network(
-                            'https://afandistudio.net/dusun_semilir/alun_eropa3.jpg'),
+                        child: Image.asset('images/Karimun3.jpeg'),
                       )),
                 ],
               ),
